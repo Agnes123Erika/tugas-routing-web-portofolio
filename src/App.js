@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Materi/Routing/home';
-import AboutMe from './Materi/Routing/aboutme'; // Make sure this component exists
-import Portfolio from './Materi/Routing/portofolio'; // Make sure this component exists
+import AboutMe from './Materi/Routing/aboutme'; 
+import Portfolio from './Materi/Routing/portofolio';
 
 function App() {
   return (

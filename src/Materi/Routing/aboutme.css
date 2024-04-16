@@ -30,12 +30,11 @@
     margin-bottom: 2rem;
 }
 
-/* aboutme.css */
 .img-column {
-    padding-right: 30px;  /* Increase right padding */
-  }
+    padding-right: 30px;  
+}
   
-  .text-column {
-    padding-left: 30px;  /* Increase left padding */
-  }
+.text-column {
+    padding-left: 30px; 
+}
   

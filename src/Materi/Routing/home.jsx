@@ -10,13 +10,13 @@ const Home = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
         <ul className="navbar-nav">
             <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">Home</Link>  {/* Changed to Link */}
+                <Link className="nav-link active" aria-current="page" to="/">Home</Link>  
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/aboutme">About Me</Link>  {/* Changed to Link */}
+                <Link className="nav-link" to="/aboutme">About Me</Link>  
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/portfolio">Portfolio</Link>  {/* Changed to Link */}
+                <Link className="nav-link" to="/portfolio">Portfolio</Link>  
             </li>
         </ul>
       </nav>

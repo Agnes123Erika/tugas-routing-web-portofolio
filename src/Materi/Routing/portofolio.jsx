@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './portofolio';
-import { Link } from 'react-router-dom';  // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 
 const Portfolio = () => {
   return (
@@ -9,13 +9,13 @@ const Portfolio = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link className="nav-link" to="/">Home</Link>  {/* Changed to Link */}
+            <Link className="nav-link" to="/">Home</Link>  
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/aboutme">About Me</Link>  {/* Changed to Link */}
+            <Link className="nav-link" to="/aboutme">About Me</Link>  
           </li>
           <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" to="/portfolio">Portfolio</Link>  {/* Changed to Link, note 'active' is handled differently */}
+            <Link className="nav-link active" aria-current="page" to="/portfolio">Portfolio</Link>  
           </li>
         </ul>
       </nav>
