@@ -1,0 +1,58 @@
+
+.navbar {
+    background: white;
+    padding: 20px 40px; 
+    margin: 20px 0; 
+}
+  
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+.nav-item:first-child {
+    margin-left: 0;
+}
+  
+.nav-item:last-child {
+    margin-right: 0;
+}
+  
+.navbar-brand {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.content {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: left; 
+    margin-top: 50px;
+}
+
+.content h1, .content h2, .content p {
+    margin-right: 20px; 
+    margin-top: auto;
+}
+
+.content h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 24px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-left: 20px;
+}
+  
